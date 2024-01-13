@@ -1,0 +1,61 @@
+.desc
+{
+    display:inline-block;
+    padding: 8px;
+    margin: 20px;
+    border-top-left-radius:2cap ;
+    border-top-right-radius:2cap ;
+    padding-left: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px gray;
+    /*1. right 2.bottom 3.allside soft 4. all side broad*/
+    height: 340px;
+    width: 260px;
+    padding-top: 20px;
+   /* opacity: 1;*/
+
+}
+
+.desc:hover
+{
+    box-shadow: 0px 0px 20px 0px gray;
+}
+
+
+
+.imgrd
+{
+    border-radius: 2cap;
+    
+}
+
+
+
+.ast
+{
+    color:darkslategrey;
+    text-decoration:double;
+    
+    
+}
+.indiv
+{
+    padding-left: 6px;
+}
+.imgdiv
+{
+    padding-left: 6px;
+}
+
+.ahead
+{
+    text-decoration: double;
+     color:gainsboro;
+}
+
+.ahead:hover
+{
+    color: white;
+    text-shadow: 1px 1px 1px white;
+    
+}

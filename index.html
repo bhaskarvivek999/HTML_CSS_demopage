@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>using HtmlCss</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<!--
+        <div style=" display:flex; padding: 10px; background-color:#f9e45b; margin-bottom: 5px;">
+
+        <div style=" border: 1px solid white; margin: 10px; width: 100px; height: 60px;" >
+            <img src="img/orderfood.PNG" height="60px" width="100px"  alt="not avilable">
+        </div>
+
+        <div style="" >
+            <h1 style="color:red; margin-top: 20px;margin-left: 20px;">ORDERFOOD.com</h1>
+        </div>
+        <div style=" margin-left: 700px; margin-top: 30px;">
+            <a style="font-size:20px; color:tomato; margin-right: 10px;"  href="#"><button>Login</button></a>  <a style="font-size:20px; color:tomato;" href="#"><button>SignUp</button></a>
+        </div>
+         
+    </div>
+
+
+    <nav style=" position:sticky;top:0px; height: 50px; background-color:#2b6777;">
+        <span >
+            <label for="location"><b>Location</b></label>
+            <select name="location" id="location">
+                <option value="Pune" selected disabled>Pune</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Satara">Satara</option>
+                <option value="Kolhapur">Kolhapur</option>
+            </select>
+            </span>
+            
+            <span>
+                <label for="foodtype"><b>Food</b> </label><input type="text" placeholder="Enter food type "><button>Search</button>
+            </span>
+    
+    </nav>
+
+    <div>
+        <img style="max-width: 100%;" src="img/background03.jpg"  alt="not avilable">
+    </div>
+-->
+
+    <div style="width: 100%; position: relative; text-align: center;color: white; ">
+        <img style="max-width: 100%;height: 590px;" src="img/zomatoimg.PNG"  alt="not avilable">
+
+        <div style="position: absolute; top: 50%;left: 50%; transform: translate(-50% , -50%); font-size: 7cap; font-family: sans-serif;font-weight: bold;">
+            orderfood.com 
+        </div>
+        <div style="color: silver; position: absolute; top: 62%;left: 50%; transform: translate(-50% , -50%); font-size: 30px; font-family: sans-serif;">
+            India's fastest food delivery app
+        </div>
+
+        <div style="position: absolute; top: 15px; right: 16px; font-size: 2cap;">
+            <a class="ahead"   href="../HtmlCssDemo/collectionPage/subpage/login.html">Login</a>  <a class="ahead" style="margin-left:25px ;margin-right: 20px;" href="../HtmlCssDemo/collectionPage/subpage/signup.html">SignUp</a>
+        </div>
+
+    </div>
+
+
+    <div style="position: sticky;top: 0px; background-color: white; border: 1px solid whitesmoke;
+     box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+    ">
+        <nav style=" margin: 15px; padding-left: 20px; font-family: sans-serif;">
+        <div>
+            <label style="color: black; font-size: 16px;" for="location">Location</label>
+            <select style="text-align: center; border: 2px solid gainsboro; width: 20cap; height:30px; background-color: beige;" name="location" id="location">
+                <option value="Pune" selected disabled>Pune</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Satara">Satara</option>
+                <option value="Kolhapur">Kolhapur</option>
+            </select>
+
+            <label style="position: relative; margin-left: 40px;" >
+                <button 
+                style="
+                    border: none;
+                    background-color: beige;
+                    position: absolute;
+                    top: 0px;
+                    left: 2px;
+                    height: 20px;
+                    margin-bottom: 15px;
+                    padding-bottom: 0px;
+                    font-weight:545;
+                   
+                    
+                ">Search</button>
+                <input style=" 
+                
+                padding-left: 165px;
+                width: 270px;
+                height: 25px;
+                border: 2px solid gainsboro;
+                border-radius: 1cap;
+                background-color: beige;
+                " type="text" placeholder="Enter food type ">
+
+        </label>
+         </div>
+        </nav>
+    </div>
+
+    <!--#2b1e16-->
+     <div style="background-color: white ;">   
+        <div style="text-align: center; padding-top: 20px; ">
+            <span style=
+            "font-size: 4cap;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color:#2d2d2d;
+            
+            ">
+                Collections</span>
+        </div>
+
+       
+        <div style=" padding-left: 22px;"> 
+        <div class="desc" > 
+            <a class="ast" href="collectionPage/newYearSpecial.html">
+                <div class="imgdiv">
+                    <img class="imgrd" src="img/newYearSpecial.PNG" alt="not avilable" height="200px" width="250px">
+                    <h3>New Year Special</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. </p>
+                </div>
+            </a>
+       </div>
+
+
+       
+
+
+       <div class="desc">
+        <a class="ast" href="collectionPage/pureVeg.html">
+            <div class="imgdiv">
+                <img class="imgrd" src="img/PurVeg.PNG" alt="not avilable" height="200px" width="250px">
+                <h3>Pure Veg</h3>
+                <p>Lorem ipsum dolor sit amet consectetur. </p>
+            </div>
+
+        </a>
+      </div>
+
+
+       
+
+
+
+       <div class="desc">
+        <a class="ast" href="collectionPage/nonveg.html">
+            <div class="imgdiv">
+                <img  class="imgrd" src="img/nonveg.PNG" alt="not avilable" height="200px" width="250px">
+                <h3>Non Veg</h3>
+                <p>Lorem ipsum dolor sit amet consectetur. </p>
+            </div>
+
+        </a>
+      </div>
+
+
+       
+
+
+       <div class="desc" >
+        <a  class="ast" href="collectionPage/blisfoolBreakfast.html">
+            <div class="imgdiv">
+                <img class="imgrd" src="img/blisfool breakfast.PNG" alt="not avilable" height="200px" width="250px">
+                <h3>Blisfool Breakfast</h3>
+                <p>Lorem ipsum dolor sit amet consectetur. </p>
+            </div>
+
+        </a>
+      </div>
+
+
+
+       
+
+
+       <div class="desc">
+        <a class="ast" href="collectionPage/coffee.html">
+            <div class="imgdiv">
+                <img class="imgrd" src="img/Coffee.PNG" alt="not avilable" height="200px" width="250px">
+                <h3>Coffee</h3>
+                <p>Lorem ipsum dolor sit amet consectetur. </p>
+            </div>
+
+        </a>
+      </div>
+
+
+
+       
+
+
+       <div class="desc">
+        <a class="ast" href="collectionPage/greatBuffet.html">
+            <div class="imgdiv">
+                <img class="imgrd" src="img/greatBuffet.PNG" alt="not avilable" height="200px" width="250px">
+                <h3>Great Buffet</h3>
+                <p>Lorem ipsum dolor sit amet consectetur. </p>
+            </div>
+
+        </a>
+       </div>
+
+
+
+       
+
+       <div class="desc">
+        <a class="ast" href="collectionPage/romanticDinner.html">
+            <div class="imgdiv">
+                <img class="imgrd" src="img/romanticDinner.PNG" alt="not avilable" height="200px" width="250px">
+                <h3>Romantic Dinner</h3>
+                <p>Lorem ipsum dolor sit amet consectetur. </p>
+            </div>
+
+        </a>
+      </div>
+
+
+
+       
+
+       <div class="desc">
+        <a class="ast" href="collectionPage/seafood.html">
+            <div class="imgdiv">
+                <img class="imgrd" src="img/seafood.PNG" alt="not avilable" height="200px" width="250px">
+                <h3>Sea Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur. </p>
+            </div>
+        
+
+        </a>
+       </div>
+
+
+
+       
+
+
+       <div class="desc">
+        <a class="ast" href="collectionPage/nightParty.html">
+            <div class="imgdiv">
+                <img class="imgrd" src="img/Nightparty.PNG" alt="not avilable" height="200px" width="250px">
+                <h3>Night Party</h3>
+                <p>Lorem ipsum dolor sit amet consectetur. </p>
+            </div>
+
+        </a>
+      </div>
+
+
+       
+
+       
+
+       <div class="desc">
+        <a class="ast" href="collectionPage/workFriendly.html">
+            <div class="imgdiv">
+                <img class="imgrd" src="img/workfriendly.PNG" alt="not avilable" height="200px" width="250px">
+                <h3>Work Friendly</h3>
+                <p>Lorem ipsum dolor sit amet consectetur. </p>
+            </div>
+
+        </a>
+       </div>
+
+
+
+
+       <div class="desc" > 
+        <a class="ast" href="collectionPage/newYearSpecial.html">
+            <div class="imgdiv">
+                <img class="imgrd" src="img/newYearSpecial.PNG" alt="not avilable" height="200px" width="250px">
+                <h3>New Year Special</h3>
+                <p>Lorem ipsum dolor sit amet consectetur. </p>
+            </div>
+        </a>
+   </div>
+
+
+   
+
+
+   <div class="desc">
+    <a class="ast" href="collectionPage/pureVeg.html">
+        <div class="imgdiv">
+            <img class="imgrd" src="img/PurVeg.PNG" alt="not avilable" height="200px" width="250px">
+            <h3>Pure Veg</h3>
+            <p>Lorem ipsum dolor sit amet consectetur. </p>
+        </div>
+
+    </a>
+  </div>
+
+
+   
+
+
+
+   <div class="desc">
+    <a class="ast" href="collectionPage/nonveg.html">
+        <div class="imgdiv">
+            <img  class="imgrd" src="img/nonveg.PNG" alt="not avilable" height="200px" width="250px">
+            <h3>Non Veg</h3>
+            <p>Lorem ipsum dolor sit amet consectetur. </p>
+        </div>
+
+    </a>
+  </div>
+
+
+   
+
+
+   <div class="desc" >
+    <a  class="ast" href="collectionPage/blisfoolBreakfast.html">
+        <div class="imgdiv">
+            <img class="imgrd" src="img/blisfool breakfast.PNG" alt="not avilable" height="200px" width="250px">
+            <h3>Blisfool Breakfast</h3>
+            <p>Lorem ipsum dolor sit amet consectetur. </p>
+        </div>
+
+    </a>
+  </div>
+
+
+
+       
+
+
+       <div class="desc">
+            <a class="ast" href="collectionPage/petFriendly.html">
+                <div class="imgdiv">
+                    <img class="imgrd" src="img/petfriendly.PNG" alt="not avilable" height="200px" width="250px">
+                    <h3>Pet Friendly</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. </p>
+                </div>
+
+            </a>
+       </div>
+
+    </div>
+
+    </div>
+
+    <div >
+        <!---->
+        <footer style="background-color:#EAE7DC; padding-top: 30px;">
+            <div style="display:flex; ">
+                <div style="padding-top:25px; ; margin-left: 25px;  width: 80px;">
+                    <img style="padding-top: px;" src="img/logo2.PNG" height="60px" alt="not avilable">
+                </div>
+                <div style="width: 400px; ">
+                    <p style="color: #2d2d2d; text-align: left; font-family:cursive; font-size:3cap;font-weight:bold;">orderfood</p>
+                </div>
+
+                <div style="margin-left:500px; padding-top: 33px; width: 300px; ">
+                    <p style="font-family: Times New Roman; font-weight: bold; color:dimgray" >Created by : Vivek Bhaskar</p>
+                </div>
+            </div>
+
+            <style>
+                li
+                {
+                    font-family: sans-serif;
+                    
+                    padding-top:10px;
+                }
+                a
+                {
+                    text-decoration: none;
+                    color: gray;
+                }
+            </style>
+
+            <div style="display: flex; padding-bottom: 20px; border-bottom: 1px solid  lightgray;">
+                <div style=" margin-left: 26px;width: 200px;">
+                   <p style="font-family: monospace; font-size:150%;" >ABOUT ORDERFOOD</p>
+                    <ul style="list-style-type: none;">
+                        <li><a href="#"> Who we are</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Work With us</a></li>
+                        <li><a href="#">Invester</a></li>
+                        <li><a href="#">Relations</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+ 
+                <div style=" margin-left: 50px;  width: 200px;">
+                    <p style="font-family: monospace; font-size:150%;" >LEARN MORE</p>
+                     <ul style="list-style-type: none;">
+                         <li><a href="#">Privacy</a> </li>
+                         <li><a href="#">Security</a></li>
+                         <li><a href="#">Terms</a></li>
+                         <li><a href="#">Sitemap</a></li>
+                         <li><a href="#">Partner with us</a></li>
+                         <li><a href="#">Apps for you</a></li>
+                     </ul>
+                 </div>
+
+                 <div style=" margin-left: 50px;  width: 200px;">
+                    <p style="font-family: monospace; font-size:150%;" >SOCIAL LINK</p>
+                    <a href="#"> <img src="img/LOGO/linkedin.png" height="30px" width="30px" alt=""></a>
+                    <a href="#"> <img src="img/LOGO/instagram.png" height="30px" width="30px" alt=""></a>
+                    <a href="#"> <img src="img/LOGO/facebook.png" height="30px" width="30px" alt=""></a>
+                    <a href="#">  <img src="img/LOGO/youtube.png" height="30px" width="30px" alt=""></a>
+                   <a href="#"> <img src="img/LOGO/twitter.png" height="30px" width="30px" alt=""></a>
+                   <br>
+                   <a href="#"><img style="margin-top: 15px; padding-left: 5px; height: 40px; width:160px ; border-radius: 8px;" src="img/LOGO/applestore.PNG" alt=""></a>
+                    <br>
+                    <a href="#"><img style="margin-top: 15px; padding-left: 5px; height: 40px; width:160px ; border-radius: 8px;" src="img/LOGO/playstore.PNG" alt=""></a>
+  
+                 </div>
+
+
+                 <div style=" margin-left: 50px;">
+                    <p style="font-family: monospace; font-size:150%;" >OFFICE</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.0560027250863!2d73.83795336968336!3d18.526371230497016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1ad300ecf13%3A0xbaf7f04ff053ace7!2sFullstack%20Guru%20%7C%20Full%20stack%20course%20in%20pune%20%7C%20Java%20classes%20%7C%20Dot%20Net%20Classes%20%7C%20MERN%20Stack%20Classes%20%7C%20MEAN%20Stack%20Classes!5e0!3m2!1sen!2sin!4v1705086932940!5m2!1sen!2sin" width="500px" height="250px" style="border:1px solid gray;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                 </div>
+
+
+            </div>
+
+            <div style="padding-bottom:6px; color: gray; ">
+                <p>orderfood.com Ltd @ All rights reserved</p>
+            </div>
+
+        </footer>
+    </div>
+
+       
+    
+</body>
+</html>
